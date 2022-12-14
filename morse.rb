@@ -27,23 +27,20 @@ def decode_char(morseChar)
      "-.--" => 'Y',
      "--.." => 'Z'
     }
-
-    print characters[morseChar].upcase
+    characters[morseChar].upcase
 end
 
-def decode_word(morseWord)
-    @wordArray = morseWord.split
-    @wordArray.each do |i|
-        decode_char(i)
-    end
-    print " "
+def decode_word(morse_word)
+  word = ''
+  wordArray = morse_word
+  wordArray.split.each { |i| word += decode_char(i) }
+  word
 end
-
 def decode_message(morseMessage)
-    @messageArray = morseMessage.split(/   /)
-    @messageArray.each do |i|
-        decode_word(i)
-    end
+  messageArray = morseMessage.split('   ')
+  output = ''
+  messageArray.each { |i| output += "#{decode_word(i)} " }
+  output
 end
 
 
