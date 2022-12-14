@@ -2,10 +2,10 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+ 
   <br/>
 
-  <h3><b>Morse-Code Decoder Ruby</b></h3>
+  <h3><b>Morse-Code Decoder</b></h3>
 
 </div>
 
@@ -15,12 +15,12 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 \[Morse-Code Decoder\] ](#-morse-code-decoder-)
-  - [🛠 Built With Postgresql](#-built-with-postgresql)
+  - [🛠 Built With Ruby](#-built-with-ruby)
     - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
+  - [Prerequisites](#prerequisites)
     - [Setup](#setup)
+  - [Usage](#usage)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -33,32 +33,22 @@
 
 # 📖 [Morse-Code Decoder] <a name="about-project"></a>
 
-> This is a ruby program that decodes, a character, word or sentence from a morse code
 
-**[Morse-Code Decoder]** is a ruby program that decodes, a character, word or sentence from a morse code
+**[Morse-Code Decoder]** Morse-Code Decoder is a ruby program that decodes, a character, word or sentence from a morse code, morse code is a method used in telecommunication to encode text characters as standardized sequences of two different signal durations, called dots and dashes, or dits and dahs. Morse code is named after Samuel Morse, one of the inventors of the telegraph.
 
-## 🛠 Built With <a name="built-with">Postgresql</a>
+![](./morse.png)
+
+## 🛠 Built With <a name="built-with">Ruby</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
-<summary>Database</summary>
+<summary>Ruby</summary>
   <ul>
-  <li><a href="https://www.postgresql.org/">Postgresql</a></li>
+  <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
 </details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -66,19 +56,20 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+To get a local copy up and running follow these simple example steps.
 
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema_based_on_diagram.sql](./schema_based_on_diagram.sql) to create all tables.
-
+## Prerequisites
+Have `Ruby`, and `Git` installed
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-- git clone https://github.com/JonahKayizzi/clinic-database-pair-programming.git
-- cd clinic-database-pair-programming
+- git clone https://github.com/JonahKayizzi/Decode-Morse-Code-Ruby.git
+- cd Decode-Morse-Code-Ruby
 
+## Usage
+ruby `morse.rb`
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
